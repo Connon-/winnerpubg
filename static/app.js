@@ -76,7 +76,7 @@ vapp = new Vue({
         flags |= 0b1000000000000000
       }
       if (this.showItemDuoDuo) {
-        flags |= 0b0100000000000000 // 雷 水 疼 急
+        flags |= 0b0100000000000000 // 雷 饮 疼 急
       }
       if (this.showItemBasic) {
         flags |= 0b0001010100010000 // 基本出装: 穿戴 | 步枪 | 瞄准 | 狙枪
